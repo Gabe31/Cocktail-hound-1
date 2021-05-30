@@ -1,2 +1,11 @@
 class Api::V1::NeighborhoodsController < ApplicationController
-end
+    
+    def index
+        neighborhoods = Neighborhood.all
+        render json: NeighborhoodsSerializer.new(neighborhoods)
+    end
+
+end 
+
+
+
