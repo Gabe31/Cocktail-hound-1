@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Use cocktail-hound-frontend repository as the other part of this application
 
-Things you may want to cover:
+Cocktail hound is an effort to allow people to find or enter the best cocktails in whichever neighborhood they find themselves. Some apps may help you find the best dishes in your area, we're guiding you to find your ideal nightcap or brunch beverage. 
 
-* Ruby version
+the database works off of 2 models: Neighborhood and Cocktail. Neighborhood has many cocktails and cocktails belong to a neighborhood. Cocktail attributes include a name, description, bar(where it's made), and its neighborhood ID. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
