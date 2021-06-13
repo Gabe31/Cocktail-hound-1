@@ -14,6 +14,12 @@ class Api::V1::CocktailsController < ApplicationController
         end
     end
 
+    def destroy
+        cocktail = Cocktail.find_by_id(params[:id])
+        cocktail.destroy
+        render json: {message: "#{cocktail.name} was successfully deleted"}
+    end
+
     private
 
     def cocktail_params
