@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do 
-      resources :neighborhoods, only: [:index]
-      resources :cocktails, only: [:index, :create]
+      resources :neighborhoods
+      resources :cocktails
     end
   end
 end

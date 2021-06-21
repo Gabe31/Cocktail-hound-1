@@ -13,3 +13,5 @@ flatiron = Neighborhood.create(name: "flatiron")
 chelsea = Neighborhood.create(name: "chelsea")
 
 Cocktail.create(title: "Rita Hayworth", description: "herbal twist on a margarita", bar: "Suzy's Bar", neighborhood_id: greenpoint.id)
+
+Cocktail.create(title: "Dirty Martini", description: "Heavy olives in a martini", bar: "Greenpoint tavern", neighborhood_id: greenpoint.id)
