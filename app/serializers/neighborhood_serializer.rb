@@ -1,4 +1,4 @@
 class NeighborhoodSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name
+  attributes :name, :cocktails
 end
